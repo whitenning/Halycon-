@@ -1,0 +1,19 @@
+<div class="nav-wrapper">
+  <div class="nav container">
+    <button (click)="hamBtn()">
+      <span></span>
+    </button>
+    <h1><span>Halcyonic</span></h1>
+    <ul [ngClass]="{ active: hamburgerBtn }">
+      <li><a href="/">Homepage</a></li>
+
+      <li><a href="/">Three Column</a></li>
+
+      <li><a href="/">Two Column #1</a></li>
+
+      <li><a href="/">Two Column #2</a></li>
+
+      <li><a href="/">One Column</a></li>
+    </ul>
+  </div>
+</div>
